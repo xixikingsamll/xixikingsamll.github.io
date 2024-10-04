@@ -8,13 +8,13 @@ function changeColor() {
     // 颜色数组
     const arr = ["#39c5bb", "#f14747", "#f1a247", "#f1ee47", "#b347f1", "#1edbff", "#ed709b", "#5636ed"]
     if (document.getElementsByTagName('html')[0].getAttribute('data-theme') == 'dark') {
-        if (document.getElementById("site-name"))
+        // if (document.getElementById("site-name"))
             document.getElementById("site-name").style.textShadow = arr[idx] + " 0 0 15px"
-        if (document.getElementById("site-title"))
+        // if (document.getElementById("site-title"))
             document.getElementById("site-title").style.textShadow = arr[idx] + " 0 0 15px"
-        if (document.getElementById("site-subtitle"))
+        // if (document.getElementById("site-subtitle"))
             document.getElementById("site-subtitle").style.textShadow = arr[idx] + " 0 0 10px"
-        if (document.getElementById("post-info"))
+        // if (document.getElementById("post-info"))
             document.getElementById("post-info").style.textShadow = arr[idx] + " 0 0 5px"
         try {
             document.getElementsByClassName("author-info__name")[0].style.textShadow = arr[idx] + " 0 0 12px"
@@ -28,13 +28,13 @@ function changeColor() {
         }
     } else {
         // 白天模式恢复默认
-        if (document.getElementById("site-name"))
+        // if (document.getElementById("site-name"))
             document.getElementById("site-name").style.textShadow = "#1e1e1ee0 1px 1px 1px"
-        if (document.getElementById("site-title"))
+        // if (document.getElementById("site-title"))
             document.getElementById("site-title").style.textShadow = "#1e1e1ee0 1px 1px 1px"
-        if (document.getElementById("site-subtitle"))
+        // if (document.getElementById("site-subtitle"))
             document.getElementById("site-subtitle").style.textShadow = "#1e1e1ee0 1px 1px 1px"
-        if (document.getElementById("post-info"))
+        // if (document.getElementById("post-info"))
             document.getElementById("post-info").style.textShadow = "#1e1e1ee0 1px 1px 1px"
         try {
             document.getElementsByClassName("author-info__name")[0].style.textShadow = ""
