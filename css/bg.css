@@ -83,3 +83,7 @@
 .author-info__description {
     transition: text-shadow 1s linear !important;
 }
+
+#site-title {
+    padding-bottom: 24px;
+}
